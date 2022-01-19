@@ -1,0 +1,1 @@
+contentContainer = document.querySelector('#content');
