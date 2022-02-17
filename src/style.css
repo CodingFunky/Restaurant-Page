@@ -1,12 +1,125 @@
+body {
+    /* background-image: url(../src//img/background.jpeg); */
+    margin: 0;
+    padding: 0;
+}
 .header {
+    background-color: black;
+    height: 100px;
+    padding: 0px;
     display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
+    justify-content: center;
+}
+#logo {
+    align-self:flex-start;
+}
+.tabs {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.tab{
+    text-decoration: none;
+    list-style: none;
+    border: white solid 1px;
+    border-bottom: none;
+    padding: 20px;
+}
+.tab.active {
+    background-color: white;
+    color: black;
+}
+.tab.not-active {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.tab a {
+    text-decoration: none;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    /* height: 30%; */
+    background-color: white;
+    border-radius: 10%;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: black solid 10px;
+}
+.imgs {
+    /* flex: 0, 0, 1; */
+    /* flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 1; */
+    height: 150px;
+    width: 230px;
 }
 
-.links {
+.menu {
+    width: 80vh;
+    height: 90vh;
+    border: black solid 6px;
+    align-self: center;
+    border-radius: 10%;
     display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
-    
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin: 50px 0px 50px 0px; */
+}
+.title-burger {
+
+}
+.des-burger {
+
+}
+.price-burger {
+
+}
+
+.contact-container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-self: center;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vh;
+    height: 50vh;
+    gap: 5px;
+}
+.name-field {
+    margin-bottom: 15px;
+}
+.email-field {
+    margin-bottom: 15px;
+}
+.text-field {
+    height: 100px;
 }
