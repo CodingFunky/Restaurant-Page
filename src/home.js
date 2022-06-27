@@ -43,7 +43,7 @@ export const makeHome = function (target) {
     const fedTxt = document.createElement('p');
 
     burgerTxt.textContent = 'At Burgers, Steaks and FexEx Copy Center we know what it takes to make a great burger. We\'ve been making burgers for like, six months already. So remember, when you come to Burgers, Steaks and Fedex Copy Center, you\'re a costumer.';
-    steakTxt.textContent = 'Steak has a special meaning to us here, and that meaning is a cow\'s lower neck and/or upper shoulder butched into thin slices that are cooked by broiling or frying. We like to think its what makes us different from the competition.';
+    steakTxt.textContent = 'Steak has a special meaning to us here, and that meaning is a cow\'s lower neck and/or upper shoulder butchered into thin slices that are cooked by broiling or frying. We like to think its what makes us different from the competition.';
     fedTxt.textContent = 'What? What do you want? To copy something? Well the copiers are over there... Do you like, need me to do it for you? How pathetic.. Oh my gawd, are you still here? what are you like some kind of perv? I\'m calling the cops.';
 
     burgerCard.append(burgerImg, burgerTxt);
